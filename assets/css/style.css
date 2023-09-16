@@ -1,0 +1,70 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: azure;
+}
+
+.for_box{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap:30px;
+    padding:100px 0px;
+}
+
+.new-cont{
+    border:2px solid rgba(192, 192, 192, 1);
+    border-radius: 25px;
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    background-color: rgb(183, 243, 224);
+   
+}
+
+.n-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    font-size: 30px;
+    font-weight: 700;
+    width: 700px;
+    margin-bottom: 30px;
+}
+
+.id,.date{
+    color:rgb(63, 108, 156);
+}
+
+.author{
+    font-size: 18px;
+    font-weight: 700;
+    color:black;
+}
+
+.inputs{
+    background-color: aquamarine;
+    padding: 30px;
+    text-align: center;
+    width: 500px;
+    display: block;
+    margin:0 auto;
+    border-radius: 25px;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    border:none;
+    text-align: center;
+    background-color: rgb(239, 223, 228);
+}
+
+.submit{
+    background-color: rgb(231, 231, 197);
+}
